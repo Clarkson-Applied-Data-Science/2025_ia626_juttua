@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #plot { width: 90%; margin: auto; }
+        a { display: block; margin-top: 20px; color: #007bff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h2>{{ title }}</h2>
+    <div id="plot"></div>
+    <script>
+        var plot_data = {{ plot | safe }};
+        Plotly.newPlot('plot', plot_data.data, plot_data.layout);
+    </script>
+    <a href="/">← Back to Home</a>
+</body>
+</html>

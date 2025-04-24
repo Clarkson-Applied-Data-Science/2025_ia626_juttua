@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Potsdam Weather Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 10px 0; }
+        a { text-decoration: none; font-size: 18px; color: #007bff; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Potsdam Weather Dashboard</h1>
+    <ul>
+        {% for route, label in routes %}
+            <li><a href="{{ '/' + route }}">{{ label }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
