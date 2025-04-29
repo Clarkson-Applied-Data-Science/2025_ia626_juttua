@@ -160,8 +160,8 @@ DuckDB provides superior in-memory analytics performance:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/potsdam-weather-dashboard.git
-cd potsdam-weather-dashboard
+git@github.com:Clarkson-Applied-Data-Science/2025_ia626_juttua.git
+cd 2025_ia626_juttua
 ```
 
 2. Install dependencies:
@@ -171,7 +171,9 @@ pip install flask duckdb
 
 3. Verify the `weather.duckdb` file exists. If not, run the Jupyter notebooks to generate it:
 ```bash
+jupyter notebook Data.ipynb
 jupyter notebook ETL.ipynb
+jupyter notebook potsdam.ipynb
 ```
 
 4. Start the Flask server:
@@ -206,7 +208,7 @@ See the `LICENSE` file for full licensing information.
 
 ## Authorship and Acknowledgements
 
-Developed by [Your Name/Research Group Name].  
+Developed by [Ashish Varma Juttu].  
 Special thanks to NOAA for providing the original global weather datasets.  
 Appreciation is extended to the developers of DuckDB, Flask, and Plotly for their outstanding open-source contributions.  
 This work is released for academic and non-commercial purposes.
