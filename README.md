@@ -127,8 +127,8 @@ The front-end UI uses **Plotly.js** to display dynamic, interactive visualizatio
 - **Temperature Trend** over user-specified date ranges
 - **Visibility Trend** (meters) timeline
 - **Wind Speed Trend** (m/s) timeline
-- **Top 5 Hottest Days** (bar chart)
-- **Top 5 Coldest Days** (bar chart)
+- **Top 5 Hottest Days** (bar chart) (Shows closest Yearly data if the dashboard doesn't have data in date range)
+- **Top 5 Coldest Days** (bar chart) (Shows closest Yearly data if the dashboard doesn't have data in date range)
 
 ### Example Screenshots:
 
