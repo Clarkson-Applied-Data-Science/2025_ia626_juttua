@@ -136,7 +136,7 @@ The front-end UI uses **Plotly.js** to display dynamic, interactive visualizatio
 |----------------------------|----------------------------------|
 | Temperature Timeline       | ![Temperature](images/temperature_plot.png) |
 | Visibility Timeline        | ![Visibility](images/visibility_plot.png)   |
-| Wind Speed Timeline        | ![Wind Speed](images/wind_plot.png)         |
+| Wind Speed Timeline        | ![Wind Speed](images/wind_speed.png)         |
 | Top 5 Hottest/Coldest Days  | ![Extremes](images/extremes_plot.png)       |
 
 ---
