@@ -173,3 +173,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 weather.duckdb
+templates/index.html
+templates/summary.html
+templates/plot.html
+templates/index.html
