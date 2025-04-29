@@ -1,6 +1,6 @@
-# NewYork North Country Weather Dashboard
+# New York North Country Weather Dashboard
 
-A web-based data analytics platform built using Flask, DuckDB, and Plotly to provide interactive visualization and statistical analysis of historical weather data for NewYork North Country Dashboard.  
+A web-based data analytics platform built using Flask, DuckDB, and Plotly to provide interactive visualization and statistical analysis of historical weather data for New York North Country Dashboard.  
 This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline optimized for filtering, transforming, and analyzing over one million weather observations.
 
 ---
